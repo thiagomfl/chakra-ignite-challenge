@@ -1,6 +1,7 @@
 import { Box, Divider, Flex, Text } from "@chakra-ui/react";
 
 import { Hero } from "../components/Hero";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { TravelTypes } from "../components/TravelTypes";
 import { ContinentsSlide } from "../components/ContinentsSlide";
@@ -35,6 +36,8 @@ export default function Home() {
 
         <ContinentsSlide />
       </Box>
+
+      <Footer />
     </Flex>
   );
 }
