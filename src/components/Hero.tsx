@@ -15,8 +15,8 @@ export function Hero() {
           <Heading
             fontSize={36}
             color="gray.300"
-            lineHeight="54px"
             fontWeight={500}
+            lineHeight="54px"
           >
             5 Continentes, <br /> infinitas possibilidades.
           </Heading>
